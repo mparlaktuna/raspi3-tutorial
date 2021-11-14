@@ -50,7 +50,6 @@ _start:
     cbnz    w2, 3b
 
     // jump to C code, should not return
-ddd
 4:  bl      main	
     // for failsafe, halt this core too
     b       1b
